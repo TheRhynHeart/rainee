@@ -94,13 +94,13 @@ void mainMenu() {
     int choice;
     while (true) {
     	
-        std::cout <<"Main Menu:\n";
-        std::cout <<"[1]List Files\n";
-        std::cout <<"[2]Create Directory\n";
-        std::cout <<"[3]Change Directory\n";
-        std::cout <<"[4]Exit\n";
-        std::cout <<"Enter choice: ";
-        std::cin >> choice;
+        cout <<"Main Menu:\n";
+        cout <<"[1]List Files\n";
+        cout <<"[2]Create Directory\n";
+        cout <<"[3]Change Directory\n";
+        cout <<"[4]Exit\n";
+        cout <<"Enter choice: ";
+        cin >> choice;
 
         switch (choice) {
             case 1: listFiles(); break;
