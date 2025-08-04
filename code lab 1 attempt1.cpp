@@ -14,6 +14,7 @@ void listFiles() {
 	std::cout << "Enter choice: ";
     std::cin >> choice;
     std::cin.ignore();
+    
 
     std::cout << "Files in current directory:\n";
 
@@ -57,7 +58,7 @@ void changeDirectory() {
     int choice;
     std::string path;
 
-    std::cout <<"\n[1] Move to Parent Directory\n";
+    std::cout <<"[1] Move to Parent Directory\n";
 	std::cout <<"[2] Move to Root Directory\n";
 	std::cout <<"[3] Enter Custom Path\n";
 	std::cout <<"Enter choice: ";
